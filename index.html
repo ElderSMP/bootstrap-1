@@ -60,7 +60,7 @@
 
     <div class="container-fluid">
         <div class="row">
-            <!-- Sidebar for desktop -->
+            
             <div class="d-none d-md-block col-md-3 col-lg-2 sidebar p-0">
                 <ul class="nav flex-column">
                     <li class="nav-item"><a class="nav-link active" href="#"><i class="bi bi-speedometer2"></i> Dashboard</a></li>
@@ -71,7 +71,7 @@
                 </ul>
             </div>
 
-            <!-- Offcanvas Sidebar for mobile -->
+            
             <div class="offcanvas offcanvas-start bg-dark text-white" tabindex="-1" id="sidebarMenu">
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-title">Menu</h5>
@@ -226,13 +226,13 @@
         </div>
     </div>
 
-    <!-- Bootstrap 5 JS with Popper.js -->
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 
     <script>
-        // Initialize charts
+        
         document.addEventListener('DOMContentLoaded', function() {
-            // Sales Chart
+            
             const salesCtx = document.getElementById('salesChart').getContext('2d');
             const salesChart = new Chart(salesCtx, {
                 type: 'line',
@@ -262,7 +262,7 @@
                 }
             });
 
-            // Traffic Chart
+            
             const trafficCtx = document.getElementById('trafficChart').getContext('2d');
             const trafficChart = new Chart(trafficCtx, {
                 type: 'doughnut',
